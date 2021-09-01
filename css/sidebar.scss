@@ -79,8 +79,7 @@ nav#menu {
     }
 
     img {
-      width: 30px;
-      height: 30px;
+      width: auto;
       padding-right: 30px;
     }
 
@@ -127,7 +126,7 @@ nav#menu {
         
         & > a {
           color: $medium-green;
-          font-weight: bold;
+          font-weight: 700;
         }
 
         ul {

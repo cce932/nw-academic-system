@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 /* reset start */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -58,6 +59,10 @@ table {
   font-size: 18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+a, label, span, li, td, div {
+  font-family: 'Roboto', sans-serif;
 }
 
 #wrapper {
@@ -154,8 +159,7 @@ nav#menu .menu-item a {
 }
 
 nav#menu .menu-item img {
-  width: 30px;
-  height: 30px;
+  width: auto;
   padding-right: 30px;
 }
 
@@ -203,7 +207,7 @@ nav#menu .menu-item .sub-menu .sub-item .dropdown-icon {
 
 nav#menu .menu-item .sub-menu .sub-item > a {
   color: #717652;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 nav#menu .menu-item .sub-menu .sub-item ul {
@@ -442,7 +446,7 @@ nav#menu #sub-menu-background {
 .tabs--container .tabs__tab table th {
   text-align: left;
   padding: 16px 0;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .tabs--container .tabs__tab table tr td {

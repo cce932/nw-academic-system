@@ -86,8 +86,7 @@ nav#menu .menu-item a {
 }
 
 nav#menu .menu-item img {
-  width: 30px;
-  height: 30px;
+  width: auto;
   padding-right: 30px;
 }
 
@@ -135,7 +134,7 @@ nav#menu .menu-item .sub-menu .sub-item .dropdown-icon {
 
 nav#menu .menu-item .sub-menu .sub-item > a {
   color: #717652;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 nav#menu .menu-item .sub-menu .sub-item ul {

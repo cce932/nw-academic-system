@@ -1,0 +1,41 @@
+@import "variable";
+
+#right-side-wrapper {
+  width: 100%;
+
+  header {
+    height: 80px;
+    background-color: $deep-brown;
+    
+    .info {
+      
+      float: right;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin-right: 120px;
+    }
+
+    #user {
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+      
+      img {
+        margin: 0 10px;
+      }
+    }
+
+    a {
+      color: $dark-green;
+    }
+  }
+
+  #content {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+  }
+}

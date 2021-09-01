@@ -1,0 +1,52 @@
+#right-side-wrapper {
+  width: 100%;
+}
+
+#right-side-wrapper header {
+  height: 80px;
+  background-color: #C1AD89;
+}
+
+#right-side-wrapper header .info {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin-right: 120px;
+}
+
+#right-side-wrapper header #user {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 40px;
+}
+
+#right-side-wrapper header #user img {
+  margin: 0 10px;
+}
+
+#right-side-wrapper header a {
+  color: #313518;
+}
+
+#right-side-wrapper #content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}

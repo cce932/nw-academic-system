@@ -1,0 +1,54 @@
+.pagination {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pagination ul li .page-label {
+  margin: 0 5px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 2rem;
+  display: block;
+  border-radius: 25px;
+}
+
+.pagination ul li input[type="radio"]:checked ~ .page-label {
+  background-color: #313518;
+  color: white;
+}
+
+.pagination ul li input[type="radio"] {
+  display: none;
+}
+
+.pagination .page-arrow {
+  background-image: url("../images/content/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  width: 7px;
+  height: 10.5px;
+  margin: 7px 15px;
+}
+
+.pagination .page-arrow.previous-page {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}

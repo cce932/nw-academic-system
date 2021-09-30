@@ -83,6 +83,18 @@ nav#menu {
       padding-right: 30px;
     }
 
+    & > a::after {
+      content: "";
+      background: url('../images/sidebar/item_menu-open.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 10.5px;
+      width: 7px;
+      position: absolute;
+      right: 40px;
+        
+    }
+
     &:hover {
       background-color: $deep-green;
 
@@ -109,13 +121,31 @@ nav#menu {
       width: 220px;
       top: 0;
       display: none;
+
+      &::after {
+        content: '';
+        display: block;
+        background-color: $light-brown;
+        height: 100vh;
+        width: 100%;
+      }
+
+      &::before {
+        content: '';
+        display: block;
+        background-color: $light-brown;
+        position: absolute;
+        top: -100vh;
+        height: 100vh;
+        width: 100%;
+      }
       
       .sub-item {
         padding: 22px 40px;
         position: relative;
 
         .dropdown-icon {
-          background-image: url(../images/sidebar/dropdown-close.svg);
+          background-image: url(../images/sidebar/sub-item_menu-close.svg);
           background-size: contain;
           background-repeat: no-repeat;
           width: 14px;
@@ -149,25 +179,12 @@ nav#menu {
           }
 
           .dropdown-icon {
-            background-image: url(../images/sidebar/dropdown-open.svg);
+            background-image: url(../images/sidebar/sub-item_menu-open.svg);
             width: 15px;
             height: 15px;
           }
         }
       }
     }
-  }
-
-  #sub-menu-background {
-    z-index: 999;
-    display: none;
-    background-color: $light-brown;
-    width: 50vw;
-    height: 100vh;
-    position: absolute;
-    right: -220px;
-    width: 220px;
-    top: 0;
-    box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.15);
   }
 }

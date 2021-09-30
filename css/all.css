@@ -235,20 +235,6 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
   height: 15px;
 }
 
-nav#menu #sub-menu-background {
-  z-index: 999;
-  display: none;
-  background-color: #FEF6E9;
-  width: 50vw;
-  height: 100vh;
-  position: absolute;
-  right: -220px;
-  width: 220px;
-  top: 0;
-  -webkit-box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.15);
-          box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.15);
-}
-
 #right-side-wrapper {
   width: 100%;
 }

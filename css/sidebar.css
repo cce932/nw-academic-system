@@ -117,6 +117,24 @@ nav#menu .menu-item .sub-menu {
   display: none;
 }
 
+nav#menu .menu-item .sub-menu::after {
+  content: '';
+  display: block;
+  background-color: #FEF6E9;
+  height: 100vh;
+  width: 100%;
+}
+
+nav#menu .menu-item .sub-menu::before {
+  content: '';
+  display: block;
+  background-color: #FEF6E9;
+  position: absolute;
+  top: -100vh;
+  height: 100vh;
+  width: 100%;
+}
+
 nav#menu .menu-item .sub-menu .sub-item {
   padding: 22px 40px;
   position: relative;
@@ -160,18 +178,4 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
   background-image: url(../images/sidebar/dropdown-open.svg);
   width: 15px;
   height: 15px;
-}
-
-nav#menu #sub-menu-background {
-  z-index: 999;
-  display: none;
-  background-color: #FEF6E9;
-  width: 50vw;
-  height: 100vh;
-  position: absolute;
-  right: -220px;
-  width: 220px;
-  top: 0;
-  -webkit-box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.15);
-          box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.15);
 }

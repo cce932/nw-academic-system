@@ -196,7 +196,7 @@ nav#menu .menu-item .sub-menu .sub-item {
 }
 
 nav#menu .menu-item .sub-menu .sub-item .dropdown-icon {
-  background-image: url(../images/sidebar/dropdown-close.svg);
+  background-image: url(../images/sidebar/sub-item_menu-close.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 14px;
@@ -230,7 +230,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover ul {
 }
 
 nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
-  background-image: url(../images/sidebar/dropdown-open.svg);
+  background-image: url(../images/sidebar/sub-item_menu-open.svg);
   width: 15px;
   height: 15px;
 }

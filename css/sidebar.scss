@@ -83,6 +83,18 @@ nav#menu {
       padding-right: 30px;
     }
 
+    & > a::after {
+      content: "";
+      background: url('../images/sidebar/item_menu-open.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 10.5px;
+      width: 7px;
+      position: absolute;
+      right: 40px;
+        
+    }
+
     &:hover {
       background-color: $deep-green;
 
@@ -133,7 +145,7 @@ nav#menu {
         position: relative;
 
         .dropdown-icon {
-          background-image: url(../images/sidebar/dropdown-close.svg);
+          background-image: url(../images/sidebar/sub-item_menu-close.svg);
           background-size: contain;
           background-repeat: no-repeat;
           width: 14px;
@@ -167,7 +179,7 @@ nav#menu {
           }
 
           .dropdown-icon {
-            background-image: url(../images/sidebar/dropdown-open.svg);
+            background-image: url(../images/sidebar/sub-item_menu-open.svg);
             width: 15px;
             height: 15px;
           }

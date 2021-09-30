@@ -90,6 +90,17 @@ nav#menu .menu-item img {
   padding-right: 30px;
 }
 
+nav#menu .menu-item > a::after {
+  content: "";
+  background: url("../images/sidebar/item_menu-open.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 10.5px;
+  width: 7px;
+  position: absolute;
+  right: 40px;
+}
+
 nav#menu .menu-item:hover {
   background-color: #616641;
 }
@@ -141,7 +152,7 @@ nav#menu .menu-item .sub-menu .sub-item {
 }
 
 nav#menu .menu-item .sub-menu .sub-item .dropdown-icon {
-  background-image: url(../images/sidebar/dropdown-close.svg);
+  background-image: url(../images/sidebar/sub-item_menu-close.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 14px;
@@ -175,7 +186,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover ul {
 }
 
 nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
-  background-image: url(../images/sidebar/dropdown-open.svg);
+  background-image: url(../images/sidebar/sub-item_menu-open.svg);
   width: 15px;
   height: 15px;
 }

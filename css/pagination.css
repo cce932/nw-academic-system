@@ -30,7 +30,7 @@
 }
 
 .pagination ul li input[type="radio"]:checked ~ .page-label {
-  background-color: #313518;
+  background-color: #263B4C;
   color: white;
 }
 

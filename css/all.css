@@ -105,44 +105,6 @@ nav#menu #menu-header #title a {
   color: #F2ECE9;
 }
 
-nav#menu #menu-header #search {
-  margin-top: 40px;
-}
-
-nav#menu #menu-header #search div {
-  background-color: #F2ECE9;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-nav#menu #menu-header #search div input {
-  width: 80%;
-  background-color: transparent;
-  border: none;
-}
-
-nav#menu #menu-header #search div input:focus {
-  outline: none;
-}
-
-nav#menu #menu-header #search div button {
-  background-color: transparent;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  float: right;
-}
-
-nav#menu #menu-header #search div button img {
-  padding-top: 5px;
-  width: 24px;
-}
-
 nav#menu .menu-item {
   padding-left: 40px;
   height: 60px;

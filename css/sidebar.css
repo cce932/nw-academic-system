@@ -1,5 +1,5 @@
 nav#menu {
-  background-color: #717652;
+  background-color: #976F59;
   z-index: 9999;
   width: 345px;
   height: 100vh;
@@ -7,7 +7,7 @@ nav#menu {
 }
 
 nav#menu li > a {
-  color: #FEF6E9;
+  color: #F3EFE0;
 }
 
 nav#menu li > a #item {
@@ -29,45 +29,7 @@ nav#menu #menu-header #logo img {
 nav#menu #menu-header #title a {
   padding-left: 30px;
   font-size: 1.4rem;
-  color: #FEF6E9;
-}
-
-nav#menu #menu-header #search {
-  margin-top: 40px;
-}
-
-nav#menu #menu-header #search div {
-  background-color: #FEF6E9;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-nav#menu #menu-header #search div input {
-  width: 80%;
-  background-color: transparent;
-  border: none;
-}
-
-nav#menu #menu-header #search div input:focus {
-  outline: none;
-}
-
-nav#menu #menu-header #search div button {
-  background-color: transparent;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  float: right;
-}
-
-nav#menu #menu-header #search div button img {
-  padding-top: 5px;
-  width: 24px;
+  color: #F3EFE0;
 }
 
 nav#menu .menu-item {
@@ -103,7 +65,7 @@ nav#menu .menu-item > a::after {
 }
 
 nav#menu .menu-item:hover {
-  background-color: #616641;
+  background-color: #6F462F;
 }
 
 nav#menu .menu-item:hover > a::after {
@@ -112,7 +74,7 @@ nav#menu .menu-item:hover > a::after {
   height: 0;
   border-style: solid;
   border-width: 8px 14px 8px 0;
-  border-color: transparent #FEF6E9 transparent transparent;
+  border-color: transparent #F3EFE0 transparent transparent;
   position: absolute;
   right: 0;
   margin-top: 3px;
@@ -120,7 +82,8 @@ nav#menu .menu-item:hover > a::after {
 }
 
 nav#menu .menu-item .sub-menu {
-  background-color: #FEF6E9;
+  z-index: 9999;
+  background-color: #F3EFE0;
   position: absolute;
   right: -240px;
   width: 240px;
@@ -131,7 +94,7 @@ nav#menu .menu-item .sub-menu {
 nav#menu .menu-item .sub-menu::after {
   content: '';
   display: block;
-  background-color: #FEF6E9;
+  background-color: #F3EFE0;
   height: 100vh;
   width: 100%;
 }
@@ -139,7 +102,7 @@ nav#menu .menu-item .sub-menu::after {
 nav#menu .menu-item .sub-menu::before {
   content: '';
   display: block;
-  background-color: #FEF6E9;
+  background-color: #F3EFE0;
   position: absolute;
   top: -100vh;
   height: 100vh;
@@ -162,7 +125,7 @@ nav#menu .menu-item .sub-menu .sub-item .dropdown-icon {
 }
 
 nav#menu .menu-item .sub-menu .sub-item > a {
-  color: #717652;
+  color: #623D28;
   font-weight: 700;
 }
 
@@ -172,12 +135,12 @@ nav#menu .menu-item .sub-menu .sub-item ul {
 }
 
 nav#menu .menu-item .sub-menu .sub-item ul a {
-  color: #717652;
+  color: #623D28;
   padding-top: 15px;
 }
 
 nav#menu .menu-item .sub-menu .sub-item:hover {
-  background-color: #F2E5CE;
+  background-color: #ECE3C3;
 }
 
 nav#menu .menu-item .sub-menu .sub-item:hover ul {

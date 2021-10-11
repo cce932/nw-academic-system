@@ -72,15 +72,15 @@ a, label, span, li, td, div {
 }
 
 nav#menu {
-  background-color: #717652;
   z-index: 9999;
+  background-color: #976F59;
   width: 345px;
   height: 100vh;
   position: fixed;
 }
 
 nav#menu li > a {
-  color: #FEF6E9;
+  color: #F3EFE0;
 }
 
 nav#menu li > a #item {
@@ -102,45 +102,7 @@ nav#menu #menu-header #logo img {
 nav#menu #menu-header #title a {
   padding-left: 30px;
   font-size: 1.4rem;
-  color: #FEF6E9;
-}
-
-nav#menu #menu-header #search {
-  margin-top: 40px;
-}
-
-nav#menu #menu-header #search div {
-  background-color: #FEF6E9;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-nav#menu #menu-header #search div input {
-  width: 80%;
-  background-color: transparent;
-  border: none;
-}
-
-nav#menu #menu-header #search div input:focus {
-  outline: none;
-}
-
-nav#menu #menu-header #search div button {
-  background-color: transparent;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  float: right;
-}
-
-nav#menu #menu-header #search div button img {
-  padding-top: 5px;
-  width: 24px;
+  color: #F3EFE0;
 }
 
 nav#menu .menu-item {
@@ -176,7 +138,7 @@ nav#menu .menu-item > a::after {
 }
 
 nav#menu .menu-item:hover {
-  background-color: #616641;
+  background-color: #6F462F;
 }
 
 nav#menu .menu-item:hover > a::after {
@@ -185,7 +147,7 @@ nav#menu .menu-item:hover > a::after {
   height: 0;
   border-style: solid;
   border-width: 8px 14px 8px 0;
-  border-color: transparent #FEF6E9 transparent transparent;
+  border-color: transparent #F3EFE0 transparent transparent;
   position: absolute;
   right: 0;
   margin-top: 3px;
@@ -193,7 +155,7 @@ nav#menu .menu-item:hover > a::after {
 }
 
 nav#menu .menu-item .sub-menu {
-  background-color: #FEF6E9;
+  background-color: #F3EFE0;
   position: absolute;
   right: -240px;
   width: 240px;
@@ -204,7 +166,7 @@ nav#menu .menu-item .sub-menu {
 nav#menu .menu-item .sub-menu::after {
   content: '';
   display: block;
-  background-color: #FEF6E9;
+  background-color: #F3EFE0;
   height: 100vh;
   width: 100%;
 }
@@ -212,7 +174,7 @@ nav#menu .menu-item .sub-menu::after {
 nav#menu .menu-item .sub-menu::before {
   content: '';
   display: block;
-  background-color: #FEF6E9;
+  background-color: #F3EFE0;
   position: absolute;
   top: -100vh;
   height: 100vh;
@@ -235,7 +197,7 @@ nav#menu .menu-item .sub-menu .sub-item .dropdown-icon {
 }
 
 nav#menu .menu-item .sub-menu .sub-item > a {
-  color: #717652;
+  color: #623D28;
   font-weight: 700;
 }
 
@@ -245,12 +207,12 @@ nav#menu .menu-item .sub-menu .sub-item ul {
 }
 
 nav#menu .menu-item .sub-menu .sub-item ul a {
-  color: #717652;
+  color: #623D28;
   padding-top: 15px;
 }
 
 nav#menu .menu-item .sub-menu .sub-item:hover {
-  background-color: #F2E5CE;
+  background-color: #ECE3C3;
 }
 
 nav#menu .menu-item .sub-menu .sub-item:hover ul {
@@ -271,7 +233,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 
 #right-side-wrapper header {
   height: 80px;
-  background-color: #C1AD89;
+  background-color: #DAD1B4;
 }
 
 #right-side-wrapper header .info {
@@ -304,7 +266,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 }
 
 #right-side-wrapper header a {
-  color: #313518;
+  color: #623D28;
 }
 
 #content {
@@ -419,18 +381,18 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #717652;
+  background-color: #976F59;
   color: white;
   text-align: center;
   border-radius: 5px;
 }
 
 .tabs--container .tabs__toggle:hover {
-  background-color: #616641;
+  background-color: #6F462F;
 }
 
 .tabs--container .tabs__toggle--active {
-  background-color: #616641;
+  background-color: #6F462F;
   border-right: 1px solid #e4e4e4;
   border-left: 1px solid #e4e4e4;
   border-bottom-color: transparent;
@@ -438,10 +400,10 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 
 .tabs--container .tabs__toggle--active::after {
   content: '';
-  border-top: #616641;
+  border-top: #6F462F;
   border-width: 14px 8px 0 8px;
   border-style: solid;
-  border-color: #616641 transparent transparent transparent;
+  border-color: #6F462F transparent transparent transparent;
   position: absolute;
   bottom: -10px;
 }
@@ -458,7 +420,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 }
 
 .tabs--container .tabs__tab table {
-  color: #313518;
+  color: #623D28;
   width: 100%;
 }
 
@@ -469,7 +431,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 }
 
 .tabs--container .tabs__tab table tr td {
-  border-bottom: #717652 solid 1px;
+  border-bottom: #976F59 solid 1px;
   text-align: left;
   padding: 16px 0;
 }
@@ -510,7 +472,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 }
 
 .pagination ul li input[type="radio"]:checked ~ .page-label {
-  background-color: #313518;
+  background-color: #623D28;
   color: white;
 }
 

@@ -34,37 +34,37 @@ nav#menu {
       color: $light-color;
     }
   
-    #search {
-      margin-top: 40px;
+    // #search {
+    //   margin-top: 40px;
   
-      div {
-        background-color: $light-color;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
+    //   div {
+    //     background-color: $light-color;
+    //     border-radius: 5px;
+    //     display: flex;
+    //     align-items: center;
     
-        input {
-          width: 80%;
-          background-color: transparent;
-          border: none;
+    //     input {
+    //       width: 80%;
+    //       background-color: transparent;
+    //       border: none;
     
-          &:focus {
-            outline: none;
-          }
-        }
+    //       &:focus {
+    //         outline: none;
+    //       }
+    //     }
     
-        button {
-          background-color: transparent;
-          height: fit-content;
-          float: right;
+    //     button {
+    //       background-color: transparent;
+    //       height: fit-content;
+    //       float: right;
     
-          img {
-            padding-top: 5px;
-            width: 24px;
-          }
-        }
-      }
-    }
+    //       img {
+    //         padding-top: 5px;
+    //         width: 24px;
+    //       }
+    //     }
+    //   }
+    // }
   }
 
 
@@ -115,6 +115,7 @@ nav#menu {
 
     
     .sub-menu {
+      z-index: 9999;
       background-color: $light-color;
       position: absolute;
       right: -240px;
@@ -155,7 +156,7 @@ nav#menu {
         }
         
         & > a {
-          color: $main-color;
+          color: $deep-color_font;
           font-weight: 700;
         }
 
@@ -164,7 +165,7 @@ nav#menu {
           visibility: hidden;
 
           a {
-            color: $main-color;
+            color: $deep-color_font;
             padding-top: 15px;
           }
         }

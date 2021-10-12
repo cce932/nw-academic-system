@@ -2,13 +2,13 @@
 
 #right-side-wrapper {
   width: 100%;
+  margin-left: 345px;
 
   header {
     height: 80px;
     background-color: $deep-brown;
     
     .info {
-      
       float: right;
       display: flex;
       align-items: center;
@@ -30,12 +30,5 @@
     a {
       color: $dark-green;
     }
-  }
-
-  #content {
-    width: 100%;
-    display: flex;
-    padding-top: 100px;
-    justify-content: center;
   }
 }

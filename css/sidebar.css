@@ -1,6 +1,7 @@
 nav#menu {
   background-color: #717652;
-  max-width: 300px;
+  z-index: 9999;
+  width: 345px;
   height: 100vh;
   position: fixed;
 }
@@ -119,11 +120,10 @@ nav#menu .menu-item:hover > a::after {
 }
 
 nav#menu .menu-item .sub-menu {
-  z-index: 9999;
   background-color: #FEF6E9;
   position: absolute;
-  right: -220px;
-  width: 220px;
+  right: -240px;
+  width: 240px;
   top: 0;
   display: none;
 }

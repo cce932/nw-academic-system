@@ -2,7 +2,8 @@
 
 nav#menu {
   background-color: $medium-green;
-  max-width: 300px;
+  z-index: 9999;
+  width: 345px;
   height: 100vh;
   position: fixed;
 
@@ -114,11 +115,10 @@ nav#menu {
 
     
     .sub-menu {
-      z-index: 9999;
       background-color: $light-brown;
       position: absolute;
-      right: -220px;
-      width: 220px;
+      right: -240px;
+      width: 240px;
       top: 0;
       display: none;
 

@@ -73,7 +73,8 @@ a, label, span, li, td, div {
 
 nav#menu {
   background-color: #717652;
-  max-width: 300px;
+  z-index: 9999;
+  width: 345px;
   height: 100vh;
   position: fixed;
 }
@@ -192,11 +193,10 @@ nav#menu .menu-item:hover > a::after {
 }
 
 nav#menu .menu-item .sub-menu {
-  z-index: 9999;
   background-color: #FEF6E9;
   position: absolute;
-  right: -220px;
-  width: 220px;
+  right: -240px;
+  width: 240px;
   top: 0;
   display: none;
 }
@@ -266,6 +266,7 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
 
 #right-side-wrapper {
   width: 100%;
+  margin-left: 345px;
 }
 
 #right-side-wrapper header {
@@ -306,12 +307,15 @@ nav#menu .menu-item .sub-menu .sub-item:hover .dropdown-icon {
   color: #313518;
 }
 
-#right-side-wrapper #content {
+#content {
   width: 100%;
+  height: calc(100vh - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

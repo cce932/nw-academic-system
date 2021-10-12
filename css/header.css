@@ -1,5 +1,6 @@
 #right-side-wrapper {
   width: 100%;
+  margin-left: 345px;
 }
 
 #right-side-wrapper header {
@@ -38,15 +39,4 @@
 
 #right-side-wrapper header a {
   color: #313518;
-}
-
-#right-side-wrapper #content {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 100px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }

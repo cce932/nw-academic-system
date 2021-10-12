@@ -4,7 +4,7 @@ nav#menu {
   background-color: $medium-green;
   max-width: 300px;
   height: 100vh;
-  position: relative;
+  position: fixed;
 
   li {
     & > a {

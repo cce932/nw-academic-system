@@ -2,7 +2,7 @@ nav#menu {
   background-color: #717652;
   max-width: 300px;
   height: 100vh;
-  position: relative;
+  position: fixed;
 }
 
 nav#menu li > a {

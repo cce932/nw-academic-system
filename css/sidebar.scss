@@ -1,7 +1,7 @@
 @import "variable";
 
 nav#menu {
-  background-color: $medium-green;
+  background-color: $main-color;
   z-index: 9999;
   width: 345px;
   height: 100vh;
@@ -9,7 +9,7 @@ nav#menu {
 
   li {
     & > a {
-      color: $light-brown;
+      color: $light-color;
   
       #item {
         width: 30px;
@@ -31,14 +31,14 @@ nav#menu {
     #title a {
       padding-left: 30px;
       font-size: 1.4rem;
-      color: $light-brown;
+      color: $light-color;
     }
   
     #search {
       margin-top: 40px;
   
       div {
-        background-color: $light-brown;
+        background-color: $light-color;
         border-radius: 5px;
         display: flex;
         align-items: center;
@@ -97,7 +97,7 @@ nav#menu {
     }
 
     &:hover {
-      background-color: $deep-green;
+      background-color: $deep-color_focus;
 
       & > a::after {
         content: "";
@@ -105,7 +105,7 @@ nav#menu {
         height: 0;
         border-style: solid;
         border-width:  8px 14px 8px 0;
-        border-color: transparent $light-brown transparent transparent;
+        border-color: transparent $light-color transparent transparent;
         position: absolute;
         right: 0;
         margin-top: 3px;
@@ -115,7 +115,7 @@ nav#menu {
 
     
     .sub-menu {
-      background-color: $light-brown;
+      background-color: $light-color;
       position: absolute;
       right: -240px;
       width: 240px;
@@ -125,7 +125,7 @@ nav#menu {
       &::after {
         content: '';
         display: block;
-        background-color: $light-brown;
+        background-color: $light-color;
         height: 100vh;
         width: 100%;
       }
@@ -133,7 +133,7 @@ nav#menu {
       &::before {
         content: '';
         display: block;
-        background-color: $light-brown;
+        background-color: $light-color;
         position: absolute;
         top: -100vh;
         height: 100vh;
@@ -155,7 +155,7 @@ nav#menu {
         }
         
         & > a {
-          color: $medium-green;
+          color: $main-color;
           font-weight: 700;
         }
 
@@ -164,13 +164,13 @@ nav#menu {
           visibility: hidden;
 
           a {
-            color: $medium-green;
+            color: $main-color;
             padding-top: 15px;
           }
         }
 
         &:hover {
-          background-color: $medium-brown;
+          background-color: $light-color_focus;
 
 
           ul {

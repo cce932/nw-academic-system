@@ -6,7 +6,7 @@
 
   header {
     height: 80px;
-    background-color: $deep-brown;
+    background-color: $header-color;
     
     .info {
       float: right;
@@ -28,7 +28,7 @@
     }
 
     a {
-      color: $dark-green;
+      color: $deep-color_font;
     }
   }
 }

@@ -74,27 +74,27 @@
     margin: 0 2px;
     padding: 15px;
     height: fit-content;
-    background-color: $medium-green;
+    background-color: $main-color;
     color: white;
     text-align: center;
     border-radius: 5px;
     
     &:hover {
-      background-color: $deep-green;
+      background-color: $deep-color_focus;
     }
     
     &--active {
-      background-color: $deep-green;
+      background-color: $deep-color_focus;
       border-right: 1px solid #e4e4e4;
       border-left: 1px solid #e4e4e4;
       border-bottom-color: transparent;
       
       &::after {
         content: '';
-        border-top: $deep-green;
+        border-top: $deep-color_focus;
         border-width: 14px 8px 0 8px;
         border-style: solid;
-        border-color: $deep-green transparent transparent transparent;
+        border-color: $deep-color_focus transparent transparent transparent;
         position: absolute;
         bottom: -10px;
       }
@@ -112,7 +112,7 @@
     padding: 24px;
 
     table {
-      color: $dark-green;
+      color: $deep-color_font;
       width: 100%;
 
       th {
@@ -123,7 +123,7 @@
       
       tr {
         td {
-          border-bottom: $medium-green solid 1px;
+          border-bottom: $main-color solid 1px;
           text-align: left;
           padding: 16px 0;
         }

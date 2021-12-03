@@ -1,6 +1,6 @@
 @import "variable";
 
-#content {
+#content { // 除了header和sidebar之外，頁面內容的區塊
   width: 100%;
   height: calc(100vh - 80px);
   display: flex;
@@ -8,17 +8,17 @@
   justify-content: center;
 }
 
-.tabs--container {
+.tabs--container { // 佈告欄區塊
   width: 900px;
   
-  .tabs {
+  .tabs { // tabs整體
     width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  .tabs--scrollable {
+  .tabs--scrollable { // tabs區塊，滾動部分
     display: flex;
     position: relative;
     top: 1px;
@@ -27,7 +27,7 @@
     flex-direction: row;
   }
   
-  .tabs__scroller {
+  .tabs__scroller { // tab滾輪
     background-image: url("../images/content/arrow.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,7 +47,7 @@
     }
   }
   
-  .tabs__toggle-group {
+  .tabs__toggle-group { // tabs群組
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -59,7 +59,7 @@
     overflow-y: hidden;
   }
   
-  .tabs__toggle {
+  .tabs__toggle { // 每個tab 位置相關設定
     display: flex;
     position: relative;
     align-items: center;
@@ -70,7 +70,7 @@
     white-space: nowrap;
   }
   
-  .tabs__toggle {
+  .tabs__toggle { // 每個tab 外觀相關設定
     margin: 0 2px;
     padding: 15px;
     height: fit-content;
@@ -101,11 +101,11 @@
     }
   }
   
-  .tabs__tabs-group {
+  .tabs__tabs-group { // tabs的內容區塊
     padding: 0 55px;
   }
   
-  .tabs__tab {
+  .tabs__tab { // 每個tab的內容區塊
     position: relative; // for the absolute position of table-pagination
     min-height: 65vh;
     width: 100%;

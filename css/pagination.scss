@@ -1,6 +1,6 @@
 @import "variable";
 
-.pagination {
+.pagination { // tab的頁碼區塊
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -34,7 +34,7 @@
 
   }
 
-  .page-arrow {
+  .page-arrow { // 頁碼旁邊的上/下一頁按鈕
     background-image: url("../images/content/arrow.svg");
     background-repeat: no-repeat;
     background-size: contain;

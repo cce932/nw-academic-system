@@ -1,6 +1,6 @@
 @import "variable";
 
-nav#menu {
+nav#menu { // 右側選單區塊
   background-color: $main-color;
   z-index: 9999;
   width: 345px;
@@ -17,7 +17,7 @@ nav#menu {
     }
   }
 
-  #menu-header {
+  #menu-header { // 選單的header
     padding: 40px;
     
     #logo {
@@ -34,7 +34,7 @@ nav#menu {
       color: $light-color;
     }
   
-    #search {
+    #search { // 搜尋區塊
       margin-top: 40px;
   
       div {
@@ -68,7 +68,7 @@ nav#menu {
   }
 
 
-  .menu-item {
+  .menu-item { // 選單內的每個分類區塊
     padding-left: 40px;
     height: 60px;
     position: relative;
@@ -114,7 +114,7 @@ nav#menu {
     }
 
     
-    .sub-menu {
+    .sub-menu { // 子選單 (分類區塊向右展開的部分)
       background-color: $light-color;
       position: absolute;
       right: -240px;
@@ -140,7 +140,7 @@ nav#menu {
         width: 100%;
       }
       
-      .sub-item {
+      .sub-item { // 子選單內的各個項目
         padding: 22px 40px;
         position: relative;
 

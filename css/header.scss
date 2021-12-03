@@ -1,14 +1,14 @@
 @import "variable";
 
-#right-side-wrapper {
+#right-side-wrapper { // 除了sidebar，右邊的部分
   width: 100%;
   margin-left: 345px;
 
-  header {
+  header { // header
     height: 80px;
     background-color: $header-color;
     
-    .info {
+    .info { // header內的右邊資訊區塊
       float: right;
       display: flex;
       align-items: center;
@@ -16,18 +16,18 @@
       margin-right: 120px;
     }
 
-    #user {
+    #user { // user資訊區塊
       height: fit-content;
       display: flex;
       align-items: center;
       margin-right: 40px;
       
-      img {
+      img { // user頭像
         margin: 0 10px;
       }
     }
 
-    a {
+    a { // header內的連結
       color: $deep-color_font;
     }
   }

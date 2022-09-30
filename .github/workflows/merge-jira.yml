@@ -18,8 +18,9 @@ jobs:
           host: ${{ secrets.JIRA_BASE_URL }}
           email: ${{ secrets.JIRA_USER_EMAIL }}
           token: ${{ secrets.JIRA_API_TOKEN }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           project: ${{ secrets.JIRA_PROJECT_NAME }}
           transition: ${{ secrets.JIRA_MERGE_TRANSITION_NAME }}
-          isOnlyTransition: true
-          isAssignToReporter: true # optional, re-assign issue to reporter
           otherAssignedTransition: ${{ secrets.JIRA_QA_TRANSITION_NAME }} # optional, trigger when issue is assigned by other
+          isOnlyTransition: true
+          # isAssignToReporter: true # optional, re-assign issue to reporter

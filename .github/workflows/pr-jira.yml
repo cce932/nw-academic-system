@@ -24,6 +24,6 @@ jobs:
           component: ${{ secrets.JIRA_COMPONENT_NAME }} # optional, created issue property
           version: ${{ secrets.JIRA_VERSION_PREFIX }} # optional, created issue property
           board: ${{ secrets.JIRA_BOARD_ID }} # optional, sprint detection for created issue
-          # isCreateIssue: true # optional, if you want to auto create issue
-          # isOnlyAppendDesc: true # optional, if you only need update PR description
           appendDescAfterRegex: 'Jira Issue Link:' # optional, insert link after regex in PR description
+          isOnlyAppendDesc: true # optional, if you only need update PR description
+          # isCreateIssue: true # optional, if you want to auto create issue

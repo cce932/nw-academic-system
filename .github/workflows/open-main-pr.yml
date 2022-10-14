@@ -1,0 +1,28 @@
+on:
+  pull_request:
+    types: [opened]
+    branches:
+      - 'main'
+
+name: PR Opened Helper on main
+
+jobs:
+  test:
+    name: PR Opened Helper on main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: nick-fields/private-action-loader@v3
+        with:
+          pal-repo-token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
+          pal-repo-name: cce932/github-jira-hook@main
+          host: ${{ secrets.JIRA_BASE_URL }}
+          email: ${{ secrets.JIRA_USER_EMAIL }}
+          token: ${{ secrets.JIRA_API_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
+          project: ${{ secrets.JIRA_PROJECT_NAME }}
+          transition: ${{ secrets.JIRA_PR_TRANSITION_NAME }}
+          type: ${{ secrets.JIRA_ISSUE_TYPE }}
+          component: ${{ secrets.JIRA_COMPONENT_NAME }}
+          board: ${{ secrets.JIRA_BOARD_ID }}
+          toggleChangeTitleToJiraTitle: true
+          toggleAppendDevPRToBody: true
